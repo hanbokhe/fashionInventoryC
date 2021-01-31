@@ -19,7 +19,7 @@ function listAllBlackShoes(inventory) {
 }
 function shoeIsBlack(shoeObject)
 {
-    if (shoeObject.name.indexOf('black') === -1){
+    if (shoeObject.name.indexOf('black') !== -1){
         return true;
     }else{
         return false;
